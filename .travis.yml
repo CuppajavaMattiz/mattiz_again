@@ -13,7 +13,7 @@ deploy:
     app: "mattiz-again"
     env: "MattizAgain-env"
     bucket_name: "elasticbeanstalk-us-east-2-066501592116"
-    bucket_path: "mattiz-again"
+    bucket_path: "again-mattiz"
     on:
         branch: master
     access_key_id: $AWS_ACCESS_KEY
