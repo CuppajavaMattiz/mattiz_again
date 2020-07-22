@@ -3,7 +3,7 @@
 	"containerDefinitions": [
 		{
 			"name": "currency-exchange-service",
-			"image": "cuppajavamattis/multi-currency-exchange:latest",
+			"image": "currency-exchange-service:latest",
 			"hostname": "currency-exchange-service",
 			"essential": true,
 			"memory": 500,
