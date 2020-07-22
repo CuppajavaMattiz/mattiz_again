@@ -5,7 +5,7 @@ services:
     
 script:
     - docker build -t cuppajavamattis/currency-exchange-service:latest -f Dockerfile.dev .
-    - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+    - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
     - docker push cuppajavamattis/currency-exchange-service:latest
 
     
