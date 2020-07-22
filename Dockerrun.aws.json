@@ -1,0 +1,23 @@
+{
+	"AWSEBDockerrunVersion" :2,
+	"containerDefinitions": [
+		{
+			"name": "currency-exchange-service",
+			"image": "cuppajavamattis/multi-currency-exchange:latest",
+			"hostname": "currency-exchange-service",
+			"essential": true,
+			"memory": 500,
+			"portMappings": [
+				{
+				"hostPort": 8080,
+				"containerPort": 8001
+				}				
+			],
+			"command": [
+	           "tail",
+	           "-f",
+	           "/bin/bash"
+	         ]
+		}
+	]
+}
