@@ -4,7 +4,8 @@ services:
     - docker
     
 script:
-    - docker build -t currency-exchange-service:latest -f Dockerfile.dev .
+    - docker build -t cuppajavamattis/currency-exchange-service:latest -f Dockerfile.dev .
+    - docker push cuppajavamattis/multi-currency-exchange:latest
     
 deploy:
     provider: "elasticbeanstalk"
