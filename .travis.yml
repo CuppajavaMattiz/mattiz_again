@@ -10,7 +10,7 @@ deploy:
     edge: "true"
     provider: "elasticbeanstalk"
     region: "us-east-2"
-    app: "mattiz-restful"
+    app: "mattiz-again"
     env: "MattizAgain-env"
     bucket_name: "elasticbeanstalk-us-east-2-066501592116"
     bucket_path: "again-mattiz"
