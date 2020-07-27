@@ -12,8 +12,8 @@ script:
 deploy:
     provider: "elasticbeanstalk"
     region: "us-east-2"
-    app: "neo-matt"
-    env: "NeoMatt-env"
+    app: "matt-neo"
+    env: "MattNeo-env"
     bucket_name: "elasticbeanstalk-us-east-2-066501592116"
     bucket_path: "again-mattiz"
     on:
