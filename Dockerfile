@@ -18,4 +18,4 @@ RUN mvn package
 EXPOSE 80
 
 # execute it
-CMD ["java","-jar","/opt/app/target/currency-exchange-service.jar"]  
+CMD ["java","-jar","/opt/app/target/currency-exchange-service-0.0.1.jar"]  
