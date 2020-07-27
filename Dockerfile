@@ -15,7 +15,7 @@ COPY src /opt/app/src
 RUN mvn package
 
 # local application port
-EXPOSE 8001
+EXPOSE 80
 
 # execute it
 CMD ["java","-jar","/opt/app/target/currency-exchange-service-0.0.1.jar"]  
