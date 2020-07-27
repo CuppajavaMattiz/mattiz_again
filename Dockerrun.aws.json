@@ -10,7 +10,7 @@
 			"portMappings": [
 				{
 				"hostPort": 80,
-				"containerPort": 8001
+				"containerPort": 80
 				}				
 			],
 			"command": [
