@@ -12,10 +12,10 @@ script:
 deploy:
     provider: "elasticbeanstalk"
     region: "us-east-2"
-    app: "geo-matt"
-    env: "GeoMatt-env"
+    app: "matt-natt"
+    env: "MattNatt-env"
     bucket_name: "elasticbeanstalk-us-east-2-066501592116"
-    bucket_path: "geo-matt"
+    bucket_path: "matt-natt"
     on:
         branch: master
     access_key_id: $AWS_ACCESS_KEY
